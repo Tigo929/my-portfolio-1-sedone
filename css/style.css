@@ -11,7 +11,4 @@
   font-weight: 700;
   font-display: swap;
   src: url("../../fonts/ptsans-regular/ptsans-400.woff2") format("woff2"), url("../../fonts/ptsans-regular/ptsans-400.woff") format("woff");
-}
-body {
-  font-family: "PT-sans-regular", Helvetica, Arial, sans-serif;
 }/*# sourceMappingURL=style.css.map */
