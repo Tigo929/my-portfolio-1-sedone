@@ -1,0 +1,24 @@
+@include сonnection-fonts(
+	'Pt-regular',
+	normal,
+	400,
+	'../../fonts/ptsans-regular/ptsans-400'
+);
+@include сonnection-fonts(
+	'Pt-bold',
+	normal,
+	700,
+	'../../fonts/ptsans-bold/ptsans-700'
+);
+@font-face {
+	font-family: 'icomoon';
+	src: url('../../imgs/font-icons/fonts/icomoon.eot?vjxpce');
+	src: url('../../imgs/font-icons/fonts/icomoon.eot?vjxpce#iefix')
+			format('embedded-opentype'),
+		url('../../imgs/font-icons/fonts/icomoon.ttf?vjxpce') format('truetype'),
+		url('../../imgs/font-icons/fonts/icomoon.woff?vjxpce') format('woff'),
+		url('../../imgs/font-icons/fonts/icomoon.svg?vjxpce#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+	font-display: block;
+}

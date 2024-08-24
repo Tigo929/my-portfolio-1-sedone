@@ -1,3 +1,15 @@
-// Fonts
-$main-fonts: 'PT-sans-regular', Helvetica, Arial, sans-serif;
-$title-fonts: 'PT-sans-bold', Helvetica, Arial, sans-serif;
+$main-font: 'Pt-regular', arial, sans-serif;
+$title-font: 'Pt-bold', arial, sans-serif;
+$base-font-size: 0.69rem; //18px
+$base-line-height: 0.81rem; //21px
+/* ===================================================================================================================== */
+
+// Color
+$base: #000000;
+$bc-base: #ffffff;
+$bc-button: #756157;
+$description: #333333;
+$active-link: #756257;
+$hover-link: #555555;
+$focus-link: #444444;
+$active-link-background: #f0f0f0;

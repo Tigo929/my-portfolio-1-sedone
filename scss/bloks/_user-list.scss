@@ -1,0 +1,26 @@
+.user-list {
+	max-width: 267px;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 14px;
+	// .user-list__item
+	&__item {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: center;
+	}
+	// .user-list__btn--form
+	&__btn--form {
+		padding: 8px 41px;
+		border-radius: 4px;
+		background-color: $bc-button;
+	}
+	// .user-list__btn
+	&__btn {
+	}
+	// .user-list__btn--user
+	&__btn--user {
+		padding: 23px 10px;
+	}
+}

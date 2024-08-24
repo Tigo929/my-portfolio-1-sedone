@@ -1,16 +1,16 @@
-@mixin font-face(
-	$font-name,
-	$font-style: normal,
-	$font-width: 400,
-	$font-path
+@mixin сonnection-fonts(
+	$name-font,
+	$style-font: normal,
+	$width-font: 400,
+	$path-font
 ) {
 	@font-face {
-		font-family: $font-name;
-		font-style: $font-style;
-		font-weight: $font-width;
+		font-family: $name-font;
+		font-style: $style-font;
+		font-weight: $width-font;
 		font-display: swap;
-		src: url('#{$font-path}.woff2') format('woff2'),
+		src: url('#{$path-font}.woff2') format('woff2'),
 			/* в случае надобности можно добавить local(точное название шрифта, чувствителен к регистру) */
-				url('#{$font-path}.woff') format('woff');
+				url('#{$path-font}.woff') format('woff');
 	}
 }

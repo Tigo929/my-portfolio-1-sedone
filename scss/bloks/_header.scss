@@ -1,0 +1,25 @@
+.header {
+	// .header__container
+	&__container {
+		max-width: 1200px;
+		min-height: 64px;
+		position: relative;
+		display: flex;
+		align-items: center;
+		flex-wrap: wrap;
+		padding-inline: 70px;
+	}
+	// .header__img-logo
+	&__img-logo {
+		position: absolute;
+		left: 70px;
+	}
+	// .header__menu
+	&__menu {
+		margin-right: auto;
+		padding-left: 168px;
+	}
+	// .header__list-user
+	&__list-user {
+	}
+}

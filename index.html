@@ -4,17 +4,18 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Document</title>
+		<link rel="stylesheet" href="./css/style.css" />
 	</head>
 	<body>
 		<header class="header">
-			<div class="header__container container">
-				<a class="header__link-logo" href="#">
-					<img
-						class="header__img-logo"
-						src="./imgs/logo/sedone.svg"
-						alt="Logotype Sedona"
-					/>
-				</a>
+			<div class="header__container">
+				<img
+					class="header__img-logo"
+					src="./imgs/logo/sedone.svg"
+					alt="Logotype Sedona"
+					width="140"
+					height="70"
+				/>
 				<nav class="header__menu menu">
 					<ul class="menu__list-nav">
 						<li class="menu__item-nav">
@@ -32,13 +33,24 @@
 				</nav>
 				<ul class="header__list-user user-list">
 					<li class="user-list__item">
-						<button class="user-list__btn" type="button"></button>
+						<button
+							class="user-list__btn user-list__btn--user icon-search"
+							type="button"
+						></button>
 					</li>
 					<li class="user-list__item">
-						<button class="user-list__btn" type="button"></button>
+						<button
+							class="user-list__btn user-list__btn--user icon-favorite"
+							type="button"
+						></button>
 					</li>
 					<li class="user-list__item">
-						<button class="user-list__btn" type="button">Хочу сюда!</button>
+						<button
+							class="user-list__btn user-list__btn--form btn"
+							type="button"
+						>
+							Хочу сюда!
+						</button>
 					</li>
 				</ul>
 			</div>
