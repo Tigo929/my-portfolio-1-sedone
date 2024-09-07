@@ -1,7 +1,5 @@
 .btn {
-	font-family: $title-font;
-	font-weight: 700;
-	font-size: 0.62rem;
-	line-height: 0.77rem;
+	@include font-styles($title-font, 700, 0.62rem, 0.77rem);
 	color: $bc-base;
+	text-transform: uppercase;
 }

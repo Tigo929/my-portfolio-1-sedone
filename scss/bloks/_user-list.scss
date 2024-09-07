@@ -12,7 +12,7 @@
 	}
 	// .user-list__btn--form
 	&__btn--form {
-		padding: 8px 41px;
+		padding: 8px 35px;
 		border-radius: 4px;
 		background-color: $bc-button;
 	}
@@ -21,6 +21,6 @@
 	}
 	// .user-list__btn--user
 	&__btn--user {
-		padding: 23px 10px;
+		padding: 13px 10px 23px 10px;
 	}
 }

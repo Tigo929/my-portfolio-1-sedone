@@ -2,22 +2,22 @@
 	'Pt-regular',
 	normal,
 	400,
-	'../../fonts/ptsans-regular/ptsans-400'
+	'../fonts/ptsans-regular/ptsans-400'
 );
 @include сonnection-fonts(
 	'Pt-bold',
 	normal,
 	700,
-	'../../fonts/ptsans-bold/ptsans-700'
+	'../fonts/ptsans-bold/ptsans-700'
 );
 @font-face {
-	font-family: 'icomoon';
-	src: url('../../imgs/font-icons/fonts/icomoon.eot?vjxpce');
-	src: url('../../imgs/font-icons/fonts/icomoon.eot?vjxpce#iefix')
+	font-family: 'icons';
+	src: url('../fonts/icon-fonts/icons.eot?mh895i');
+	src: url('../fonts/icon-fonts/icons.eot?mh895i#iefix')
 			format('embedded-opentype'),
-		url('../../imgs/font-icons/fonts/icomoon.ttf?vjxpce') format('truetype'),
-		url('../../imgs/font-icons/fonts/icomoon.woff?vjxpce') format('woff'),
-		url('../../imgs/font-icons/fonts/icomoon.svg?vjxpce#icomoon') format('svg');
+		url('../fonts/icon-fonts/icons.ttf?mh895i') format('truetype'),
+		url('../fonts/icon-fonts/icons.woff?mh895i') format('woff'),
+		url('../fonts/icon-fonts/icons.svg?mh895i#icons') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;

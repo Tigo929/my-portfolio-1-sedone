@@ -1,23 +1,24 @@
 .header {
 	// .header__container
 	&__container {
+		padding: 4px 70px 0;
 		max-width: 1200px;
 		min-height: 64px;
 		position: relative;
 		display: flex;
 		align-items: center;
 		flex-wrap: wrap;
-		padding-inline: 70px;
 	}
 	// .header__img-logo
 	&__img-logo {
 		position: absolute;
+		top: 0;
 		left: 70px;
 	}
 	// .header__menu
 	&__menu {
 		margin-right: auto;
-		padding-left: 168px;
+		padding-left: 173px;
 	}
 	// .header__list-user
 	&__list-user {

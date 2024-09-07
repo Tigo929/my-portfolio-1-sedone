@@ -1,10 +1,8 @@
 body {
-	height: 100%;
+	@include font-styles($main-font, 400, $base-font-size, $base-line-height);
 	max-width: 1200px;
+	height: 100%;
 	margin-inline: auto;
-	font-family: $main-font;
-	font-size: $base-font-size;
-	line-height: $base-line-height;
 }
 a {
 	font-family: inherit;
@@ -16,16 +14,4 @@ a:focus,
 a:active {
 	outline: none;
 }
-[class^='icon-'],
-[class*=' icon-'] {
-	font-family: 'icomoon' !important;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
 
-	/* Better Font Rendering =========== */
-	-webkit-font-smoothing: antialiased;
-	-moz-osx-font-smoothing: grayscale;
-}
