@@ -9,12 +9,14 @@
 	}
 	&__container::after {
 		content: '';
-		background: url('../imgs/section/greetings/divider.png') no-repeat
-			center/cover;
+		background: url(../imgs/section/greetings/divider.png) no-repeat center /
+			cover;
 		position: absolute;
 		width: 100%;
 		min-height: 57px;
-		bottom: 0;
+		bottom: 0px;
+		left: -50%;
+		transform: translateX(50%);
 	}
 	// .greetings__title
 	&__title {

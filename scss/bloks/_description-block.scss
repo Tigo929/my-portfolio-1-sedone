@@ -1,0 +1,17 @@
+.description-block {
+	padding-inline: 260px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	// .description-block__title
+	&__title {
+		@include font-styles(700, 1.15rem, 1.38rem);
+		margin-bottom: 26px;
+		color: $base;
+	}
+	// .description-block__text
+	&__text {
+		@include font-styles(400, 0.85rem, 1rem);
+		text-align: center;
+	}
+}

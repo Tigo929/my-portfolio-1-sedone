@@ -1,5 +1,6 @@
 body {
-	@include font-styles($main-font, 400, $base-font-size, $base-line-height);
+	@include font-styles(400, $base-font-size, $base-line-height);
+	font-family: $main-font;
 	max-width: 1200px;
 	height: 100%;
 	margin-inline: auto;
@@ -14,4 +15,3 @@ a:focus,
 a:active {
 	outline: none;
 }
-

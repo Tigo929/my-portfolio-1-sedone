@@ -1,0 +1,17 @@
+.box-advantages {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	max-width: 230px;
+	min-height: 179px;
+	padding: 103px 85px;
+	// .box-advantages__title
+	&__title {
+		@include font-styles(700, 0.92rem, 1.07rem);
+	}
+	// .box-advantages__advantages
+	&__description {
+		@include font-styles(400, 0.7rem, 0.8rem);
+		text-align: center;
+	}
+}

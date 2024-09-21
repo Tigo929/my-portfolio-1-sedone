@@ -1,0 +1,59 @@
+.list-advantages {
+	display: flex;
+	flex-wrap: wrap;
+
+	// list-advantages__item
+	&__item {
+		display: flex;
+		flex-wrap: nowrap;
+		background-color: $bc-box-default;
+		// Каждая третья <li>, исключая элементы с классом --group
+		&:not(&--group):nth-child(2n + 1) {
+			.list-advantages__box {
+				background-color: $bc-box-3n; // Цвет для каждого третьего элемента, кроме --group
+			}
+		}
+	}
+	// list-advantages__item--group
+	&__item--group {
+		color: $color-desc-with-img;
+		.list-advantages__box {
+			background-color: $bc-box-with-img;
+		}
+
+		&__title {
+			color: $base-white;
+
+			&::after {
+				// background-color: $bc-line-with-img;
+			}
+		}
+	}
+	// Стили для list-advantages__title
+	&__title {
+		position: relative;
+		margin-bottom: 60px;
+		max-width: 175px;
+		min-height: 56px;
+
+		&::after {
+			content: '';
+			position: absolute;
+			bottom: -30px;
+			left: 50%;
+			transform: translateX(-50%);
+			width: 31.1%;
+			height: 2px;
+		}
+	}
+
+	// Стили для list-advantages__wrapper
+	&__wrapper {
+		background-color: red;
+		width: 800px;
+		max-height: 385px;
+	}
+	.list-advantages__item--group:nth-of-type(2n) {
+		flex-direction: row-reverse;
+	}
+}

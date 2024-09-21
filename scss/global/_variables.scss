@@ -7,10 +7,18 @@ $base-line-height: 0.81rem; //21px
 // Color
 $main-color: #333333;
 $base: #000000;
+$base-white: #ffffff;
 $description: #333333;
+// Advantages
+$color-desc-with-img: rgba(255, 255, 255, 1);
 
+/* ===================================================================================================================== */
 //BC
-$bc-base: #ffffff;
 $bc-button: #756157;
-
+// Advantages
+$bc-line-with-default: rgba(0, 0, 0, 0.3);
+$bc-line-with-img: rgba(255, 255, 255, 0.3);
+$bc-box-with-img: #82b3d3;
+$bc-box-default: rgba(131, 179, 211, 0.12);
+$bc-box-3n: rgba(131, 179, 211, 0.2);
 /* ===================================================================================================================== */
